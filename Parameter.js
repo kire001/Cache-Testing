@@ -1,1 +1,6 @@
 //Parameter file
+class Parameter{
+
+
+
+}
