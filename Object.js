@@ -9,8 +9,8 @@ class superHero{
 
   private var hero;
 
-  public function superHero(userid){
-    if (userid=='erik'){
+  public function superHero(UserId){
+    if (userid=='erik.siffel'){
       this.hero=erik;
     }
     else{
