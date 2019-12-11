@@ -10,15 +10,15 @@ class superHero{
   private var hero;
 
   public function superHero(userid){
-    if (userid=='erik.siffel'){
-      this.hero=erik;
+    if (userid == 'erik.siffel'){
+      this.hero = erik;
     }
     else{
-    	this.hero=filip;
+    	this.hero = filip;
     }
   }
-
+//---------------------------------------------------
   public function getSuperHero(){
-    return hero;
+    return this.hero;
   }
 }
