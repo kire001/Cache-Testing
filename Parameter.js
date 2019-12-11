@@ -1,5 +1,5 @@
 //Parameter file
-class Parameter{
+class ParamTest{
 static function testParameter(state,report,userid){
 var neco = userid + ': svet za dvojteckou';
 Spells.SaveParameter (state, report, 'heroName', userid, neco);
