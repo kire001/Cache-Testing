@@ -43,5 +43,3 @@ class Spell{
       parameter.Items.Add(a);
     }
   }
-
-  }
