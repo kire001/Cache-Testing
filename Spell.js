@@ -35,24 +35,13 @@ class Spell{
   // Returns:
   //   * Nothing returned
 
-  /*  static function LoadParameter (report, parameter, parameter_values)
+   static function LoadParameter (report, parameter, value)
   {
-    for (var i=0; i<parameter_values.length; ++i)
-    {
       var a : ParameterValueResponse = new ParameterValueResponse();
-      var code = (parameter_values[i].Code == null) ? parameter_values[i].Label : parameter_values[i].Code;
-      a.StringKeyValue = code;
-
-      var labels : LanguageTextCollection = new LanguageTextCollection();
-      labels.Add(new LanguageText(report.CurrentLanguage, parameter_values[i].Label));
-
-      a.LocalizedLabel = new Label(labels);
-      a.StringValue = parameter_values[i].Label;
-
+            a.StringKeyValue = value;
+            a.StringValue = value + "Label"
       parameter.Items.Add(a);
     }
-  }*/
-
-
+  }
 
   }
