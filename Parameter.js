@@ -7,4 +7,3 @@ Spell.LoadParameter (report, 'heroName', 'Possible Value 1');
 Spell.LoadParameter (report, 'heroName', 'Possible Value 2');
 }
 }
-//static function SaveParameter (state, report, param_name, key, value) {
