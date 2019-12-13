@@ -39,7 +39,7 @@ class Spell{
   {
       var a : ParameterValueResponse = new ParameterValueResponse();
             a.StringKeyValue = value;
-            a.StringValue = value + "Label"
+            a.StringValue = value + "Label";
       parameter.Items.Add(a);
     }
   }
