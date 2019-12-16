@@ -2,7 +2,8 @@
 class ParamTest{
 static function testParameter(state,report,userid){
 var neco = userid + ': svet za dvojteckou';
-Spell.SaveParameter (state, report, 'heroName', userid, neco);
+Spell.Save (state, report, 'heroName', neco);
+Spell.LoadParameter (report, 'heroName', 'Possible Value 1');
+Spell.LoadParameter (report, 'heroName', 'Possible Value 2');
 }
 }
-//static function SaveParameter (state, report, param_name, key, value) {
